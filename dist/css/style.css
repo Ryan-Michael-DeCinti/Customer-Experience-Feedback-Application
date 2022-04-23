@@ -1,0 +1,158 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)), url("https://wallpaperaccess.com/full/3014596.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
+@media (min-width:500px){
+    .wrapper-1{
+        width:400px;
+    }
+}
+
+.wrapper-1{
+    background-image: linear-gradient(120deg, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    
+    
+}
+
+@media (min-width:500px){
+    .wrapper-2{
+        width:400px;
+        
+    }
+
+}
+.wrapper-2{
+    background-image: linear-gradient(120deg, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    padding: 1.50rem;
+    border-radius: 0.625rem;
+    display: none;
+  
+
+}
+
+.thank-you-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-2-selection{
+text-align: center;
+background-color: hsl(216, 12%, 8%);
+border: none;
+border-radius: 0.625rem;
+color:hsl(25, 97%, 53%);
+font-size: 0.9rem;
+}
+
+.wrapper-2-text{
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+    font-size: 1.50rem;
+}
+.wrapper-2-paragraph{
+    color:hsl(217, 12%, 63%);
+}
+
+.star-container{
+    background-color: hsl(213, 19%, 18%);
+    height:40px;
+    width:40px;
+    border: none;
+    border-radius: 50%;
+    color:white;
+   }
+
+.star-logo{
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding-top:25%;
+}
+    
+
+.text{
+    color:hsl(0, 0%, 100%);
+}
+
+.paragraph-text{
+    color:hsl(217, 12%, 63%);
+}
+
+.rating-nums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-inline-start: 0%;
+    column-gap:2.5rem;
+   
+}
+
+.button-value{
+ background-color: hsl(213, 19%, 18%);
+ height:40px;
+ width:40px;
+ border: none;
+ border-radius: 50%;
+ color:white;
+ transition: 0.1s ease-in-out;
+}
+
+.button-value:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.button-value:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.button-container{
+    text-align: center;
+}
+
+.btn-submit{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 0.625rem;
+    width:100%;
+    padding: 1rem;
+    color:hsl(0, 0%, 100%);
+    transition: 0.15s ease-in-out;
+}
+
+.btn-submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.button-container-2{
+    text-align: center;
+}
+
+.btn-retake{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 0.625rem;
+    width:100%;
+    padding: 1rem;
+    color:hsl(0, 0%, 100%);
+    transition: 0.15s ease-in-out;
+
+}
+
+.btn-retake:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+
+}
